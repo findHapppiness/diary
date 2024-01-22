@@ -13,8 +13,7 @@
 > 최소 1명 이상의 assign을 받아야만 Merge 가능합니다.
 
 - [ ] Warning Message가 발생하지 않았나요?
-- [ ] Coding Convention을 준수했나요?
-- [ ] Test Code를 작성하였나요?
+- [ ] Commit Convention을 준수했나요?
 
 ## :speech_balloon:  작업 내용
 
