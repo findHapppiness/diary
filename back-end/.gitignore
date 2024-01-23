@@ -13,3 +13,6 @@ media
 
 ### Python Venv ###
 /venv
+
+### Environment Variables File ###
+config/.env
