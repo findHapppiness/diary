@@ -5,7 +5,7 @@ import Gnb from "@/components/gnb";
 import Header from "@/components/header";
 import Favicon from "../../public/favicon.ico";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "행복을 찾아서 : Diary",
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className="hidden sm:block md:block">
         <Header />
         <div>{children}</div>
         <Gnb />

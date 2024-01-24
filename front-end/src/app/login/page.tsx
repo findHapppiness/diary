@@ -1,5 +1,5 @@
-import Image from "next/image";
+const Login = () => {
+  return <div className="">login</div>;
+};
 
-export default function Login() {
-  return <main className="">login</main>;
-}
+export default Login;
