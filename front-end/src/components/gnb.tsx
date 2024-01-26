@@ -30,7 +30,7 @@ const GNB_LIST = [
 
 const Gnb = () => {
   return (
-    <div className="flex">
+    <div className="bg-slate-900 text-white p-10 text-lg flex justify-between">
       {GNB_LIST.map((link) => (
         <Link href={link.href} key={link.id}>
           {link.name}
